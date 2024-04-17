@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="">
+            <div>
+            <br><label for="name">Name</label>
+            <input type="text" name="name" id="name" class="f1" required placeholder="Enter your Name"><br>
+            </div>
+            <div>
+            <br><label for="age">Age</label>
+            <input type="number" name="age" id="age" class="f1" min="18" max="25" required><br>
+            </div>
+            <div>
+            <br><label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" class="f1" min="2000-01-01" max="2024-01-18" required><br>
+            </div>
+            <div>
+            <br><label for="email">Email</label>
+            <input type="email" name="email" id="email" class="f1" required>
+            </div>
+            <div>
+            <br><label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" required>Male
+            <input type="radio" name="gender" id="female">Female
+            <input type="radio" name="gender" id="transgender">Transgender <br>
+            </div>
+            <div>
+            <br><label for="subject">Subject</label>
+            <input type="checkbox" name="subject" id="english" required>English <br>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="subject" id="maths" required>Maths <br>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="subject" id="physics">Physics <br>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="subject" id="chemistry">Chemistry <br>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="subject" id="computer">Computer Science<br>
+            
+            </div>
+            <div>
+            <br><label for="address">Address</label>&nbsp;
+            <textarea name="address" id="address" class="f1"  rows="5" cols="30" required placeholder="ADDRESS"></textarea>
+            <br>
+            </div>
+            <div><br><input class="f1" type="submit">
+            </div>
+
+        </form>
+    </body>
+</html>
